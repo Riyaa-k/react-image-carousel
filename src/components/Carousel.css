@@ -1,1 +1,33 @@
 /* write your carousel css in this file */
+.carousel-contianer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.img{
+    position: absolute;
+}
+.carousel-content{
+    height: 900px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 60px;
+    background-color: #fff;
+    position: relative;
+    top: 300px;
+}
+
+p {
+    font-size: 30px;
+    background-color: #fff;
+    position: relative;
+    top: 500px;
+}
+.arrow-icon{
+    width: 63px;
+    height: 700px;
+
+}
